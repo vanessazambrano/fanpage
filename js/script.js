@@ -1,7 +1,10 @@
 // JavaScript File
 /*global $*/
 
-$('body').click(function(){
+$(".social-image").click(function(){
     
 });
 
+$('body').click(function(){
+    
+});

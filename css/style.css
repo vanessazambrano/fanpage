@@ -10,10 +10,28 @@ a {
     text-decoration: none;
 }
 
-.main {
-    height: 100%;
+.container {
+    display: flex;
+    justify-content: space-between;
 }
+
+.navbar {
+    background: red;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background: blue;
+    width: 70%;
+}
+
 .social-image{
     width: 30px;
     margin: 15px;
+}
+#navbar{
+    display:flex;
+    
 }
